@@ -1,4 +1,4 @@
-create database `QuanLyBanHang`;
+StudentIDcreate database `QuanLyBanHang`;
 
 use `QuanLyBanHang`;
 
