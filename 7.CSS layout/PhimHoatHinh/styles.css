@@ -1,0 +1,75 @@
+body{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#header{
+    margin-top: 5px;
+    width: 100%;
+    padding: 0px 0px 60px 0px;
+    height: 50px;
+    background-color: antiquewhite;
+}
+
+#nav{
+    margin-top: 5px;
+    width: 100%;
+    background-color: aliceblue;
+    height: 30px;
+}
+
+#phimhoathinh{
+    margin-left:25%;
+    float:left;
+    padding: 5px 10px 5px 10px;
+}
+#phimhoathinh:hover{
+    background-color: antiquewhite;
+}
+#phimhoathinhyeuthich{
+    float:left;
+    padding-right: 5px;
+    padding: 5px 10px 5px 10px;
+}
+#phimhoathinhyeuthich:hover{
+    background-color: antiquewhite;
+}
+#nhanvathoathinh{
+    float:left;
+    padding-right: 5px;
+    padding: 5px 10px 5px 10px;
+}
+#nhanvathoathinh:hover{
+    background-color: antiquewhite;
+}
+#gopy{
+    float:left;
+    padding: 5px 10px 5px 10px;
+}
+#gopy:hover {
+    background-color: antiquewhite;
+}
+
+#sidebar{
+    border: 1px solid antiquewhite;
+    width: 35%;
+    float: left;
+    height: 90vh;
+    margin-top: 5px;
+}
+
+
+#sidebar figure{
+    width: 90%;
+    height: 20vh;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+#content{
+    border: 1px solid antiquewhite;
+    width: 63%;
+    float: right;
+    height: 90vh;
+    margin-top: 5px;
+}
