@@ -1,0 +1,11 @@
+html{
+    font-size:  small;
+}
+#header{
+    width: 200px;
+}
+#header-panel{
+    color: white;
+    text-align: center;
+
+}
