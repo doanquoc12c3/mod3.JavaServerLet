@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1773971a-d5db-46a3-a2fa-2841156cf8f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../6.css/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../6.css/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../6.css/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../6.css/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../6.css/6.css.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../6.css/NhungCSSvaoHTML-BT.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../6.css/baitap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../6.css/suDungCSS-TH.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UngDungChuyenDoiTien-TH/src/main/webapp/converter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebHienThiThoiGianHeThong-Th/src/main/java/ServerTimeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pageDangNhap-HienThiLoiChao-TH/src/main/java/simpleLoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BaiTapVeNha/quanlitourdulich.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2.ThietKeVaTaoCSDL/QuanLyBanHang.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../2.ThietKeVaTaoCSDL/QuanLyBanHang.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3.ThaoTacVsCSDL/QuanLySinhVienBT.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5.SQLviewIndexStoredProcedures/viewIndexStoredProcedure-BT.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../5.SQLviewIndexStoredProcedures/viewIndexStoredProcedure-BT.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7.CSS layout/Login-Bootstrap-TH/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +28,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,6 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646016469101</updated>
       <workItem from="1646016470253" duration="71000" />
+      <workItem from="1646119829885" duration="121000" />
     </task>
     <servers />
   </component>
