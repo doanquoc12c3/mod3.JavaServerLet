@@ -20,7 +20,8 @@ public class TranslationServlet extends HttpServlet {
         dictionary.put("how", "Thế nào");
         dictionary.put("book", "Quyển vở");
         dictionary.put("computer", "Máy tính");
-
+        response.setContentType("text/html;charset=UTF-8");
+        request.setCharacterEncoding("utf-8");
         String search = request.getParameter("txtSearch");
 
         PrintWriter writer = response.getWriter();
