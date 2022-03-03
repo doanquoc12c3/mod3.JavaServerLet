@@ -1,11 +1,13 @@
-<%--
+<%@ page import="java.util.List" %>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="com.codegym.User" %><%--
   Created by IntelliJ IDEA.
   User: macbook
   Date: 28/02/2022
   Time: 09:56
   To change this template use File | Settings | File Templates.
 --%>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>
@@ -30,6 +32,13 @@
   </style>
 </head>
 <body>
+<%
+  List<User> userList = new ArrayList<>();
+  userList.add(new User("quoc","10-10-98","ha noi","/img/new.png"));
+  userList.add(new User("quoc","10-10-98","ha noi","/img/new.png"));
+  userList.add(new User("quoc","10-10-98","ha noi","/img/new.png"));
+  pageContext.setAttribute("userList",userList);
+%>
 <h1>Hiển Thị DS Khách Hàng</h1>
 <table>
   <tr>
@@ -38,36 +47,16 @@
   <td>Địa chỉ</td>
   <td>Ảnh</td>
   </tr>
-  <tr>
-    <td>Mai Văn Hoàn </td>
-    <td>1983-08-20</td>
-    <td>Hà Nội</td>
-    <td><img src="img/new.png" width=100 height=100></td>
-  </tr>
-  <tr>
-    <td>Nguyễn Văn Nam</td>
-    <td>1983-08-20</td>
-    <td>Lào Cai</td>
-    <td><img src="img/new.png" width=100 height=100></td>
-  </tr>
-  <tr>
-    <td>Nguyễn Thái Hoà</td>
-    <td>1983-08-20</td>
-    <td>Bắc Giang</td>
-    <td><img src="img/new.png" width=100 height=100></td>
-  </tr>
-  <tr>
-    <td>Trần Đăng Khoa</td>
-    <td>1983-08-20</td>
-    <td>Nam Định</td>
-    <td><img src="img/new.png" width=100 height=100></td>
-  </tr>
-  <tr>
-    <td>Nguyễn Đình Thi</td>
-    <td>1983-08-20</td>
-    <td>Hà Nội</td>
-    <td><img src="img/new.png" width=100 height=100></td>
-  </tr>
+  <c:forEach var="user" items="${userList}">
+    <tr>
+      <td>${user.name}</td>
+      <td>${user.birthday}</td>
+      <td>${user.address}</td>
+      <td><img src="${user.img}"width=100 height=100></td>
+    </tr>
+  </c:forEach>
+
+
 </table>
 </body>
 </html>
